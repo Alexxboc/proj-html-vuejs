@@ -26,10 +26,40 @@ img {
     font-size: 15px;
 }
 
+.fs_20 {
+    font-size: 20px;
+}
+
+.fw_500 {
+    font-weight: 500;
+}
+
+.fw_600 {
+    font-weight: 600;
+}
+
 .unstyled {
     list-style: none;
 }
 
 .decor_none {
     text-decoration: none;
+}
+
+.logo_pill {
+    font-weight: 700;
+    color: #12bfc0;
+    background-color: rgb(69 187 188 / 26%);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 0.3rem;
+    border-radius: 20px 0 0 20px;
+}
+
+.btn_get {
+    background-color: $consulting-elm;
+    padding: 0.75rem 1.1rem;
+    border-radius: 4px;
+    color: $consulting-white !important;
 }

@@ -12,18 +12,6 @@ export default {
   components: {
     HeaderMenu,
   },
-  data() {
-    return {
-      menuList: [
-        { name: "Home" },
-        { name: "About" },
-        { name: "Services" },
-        { name: "Process" },
-        { name: "Team" },
-        { name: "Blog" },
-      ],
-    };
-  },
 };
 </script>
 
