@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import HeaderMenu from "@/components/HeaderMenuComponent.vue";
+import HeaderMenu from "../Header/HeaderMenuComponent.vue";
 
 export default {
   name: "SiteHeader",
