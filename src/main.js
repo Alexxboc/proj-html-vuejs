@@ -11,15 +11,25 @@ import "@fontsource/poppins/700.css"
 import "@fontsource/poppins/800.css"
 import "@fontsource/poppins/900.css"
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+
+/* import specific icons 👇 QUI AGGIUNGI LE ICONE che vuoi usare in camelCase */
+import { faUserSecret, faMagnifyingGlass, faClock, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+
+/* import font awesome icon component */
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { faFacebookF, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons'
+
+/* add icons to the library 👇 QUI AGGIUNGI IL NOME DELL'ICONA in camelCase*/
+library.add(faUserSecret, faMagnifyingGlass, faClock, faPhone, faEnvelope, faFacebookF, faLinkedinIn, faTwitter)
+
+/* add font awesome icon component */
+Vue.component('font-awesome-icon', FontAwesomeIcon)
+
 
 const bootstrap = require('bootstrap')
 Vue.use(bootstrap)
 
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faMagnifyingGlass, faArrowRight, faArrowDown, faBell, faPlay, faCircleInfo, faPlus } from '@fortawesome/free-solid-svg-icons'
-Vue.component('font-awesome-icon', FontAwesomeIcon)
-library.add(faMagnifyingGlass, faArrowRight, faArrowDown, faBell, faPlay, faCircleInfo, faPlus)
 
 Vue.config.productionTip = false
 

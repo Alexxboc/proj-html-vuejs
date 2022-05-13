@@ -3,7 +3,7 @@
     font-family: 'Poppins', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: white;
+    color: black;
 }
 
 
@@ -17,4 +17,11 @@
 
 img {
     max-width: 100%;
+}
+
+
+/* Utilities */
+
+.fs_15 {
+    font-size: 15px;
 }
