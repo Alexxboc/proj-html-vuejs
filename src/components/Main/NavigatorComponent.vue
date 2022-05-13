@@ -1,14 +1,9 @@
 <template>
-  <div class="container">
-    <div class="navigator d-flex justify-content-between py-4">
-      <MainLogo />
-      <NavigatorMenu />
-    </div>
-    <!-- /.navigator -->
-    <div class="form"></div>
-    <!-- /.form -->
+  <div class="navigator d-flex justify-content-between py-4">
+    <MainLogo />
+    <NavigatorMenu />
   </div>
-  <!-- /.container -->
+  <!-- /.navigator -->
 </template>
 
 <script>
@@ -24,5 +19,3 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-</style>

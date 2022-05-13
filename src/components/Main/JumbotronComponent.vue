@@ -1,6 +1,49 @@
 <template>
   <section class="jumbotron">
-    <JumboNavigator />
+    <div class="container">
+      <JumboNavigator />
+      <div class="row justify-content-end">
+        <div class="col-12">
+          <div class="form_wrapper">
+            <h6 class="text-uppercase fw_600">fusions & acquisitions</h6>
+            <h1 class="fw_900">
+              Insurance <br />
+              Consulting
+            </h1>
+            <div class="row row-cols-2 form pt-3">
+              <div class="col pb-2">
+                <input type="text" placeholder="Name" />
+              </div>
+              <!-- /.col -->
+              <div class="col pb-2">
+                <input type="text" placeholder="Email" />
+              </div>
+              <!-- /.col -->
+              <div class="col"><input type="text" placeholder="Phone" /></div>
+              <!-- /.col -->
+              <div class="col">
+                <select name="more_info" id="1">
+                  <option value="" selected>
+                    <span>More info</span>
+                  </option>
+                </select>
+              </div>
+              <!-- /.col -->
+            </div>
+            <!-- /.row form -->
+            <div class="actions pt-4">
+              <a href="#" class="btn_get decor_none">get in touch</a>
+              <a href="#" class="btn_outline decor_none ms-3">read more</a>
+            </div>
+            <!-- /.col -->
+          </div>
+          <!-- /.form_wrapper -->
+        </div>
+        <!-- /.col-12 -->
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
   </section>
   <!-- /.jumbotron -->
 </template>
@@ -18,9 +61,45 @@ export default {
 
 <style lang="scss" scoped>
 .jumbotron {
-  height: 830px;
+  min-height: calc(79vh - 50px);
   background-image: url(@/assets/img/bg-6.jpg);
   background-size: cover;
   background-position: center;
+}
+
+.col-12 {
+  width: 40%;
+}
+.form_wrapper {
+  padding: 100px 0;
+  h6 {
+    color: $consulting-fountain-blue;
+  }
+  h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 4.5rem;
+    color: $consulting-limed-sprouce;
+  }
+
+  input,
+  select {
+    width: 100%;
+    height: 50px;
+    background: no-repeat;
+    box-shadow: none;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.075);
+    border: none;
+    border-radius: 4px;
+    line-height: 1.2;
+    color: #21333e !important;
+    outline: none;
+  }
+
+  select {
+    -webkit-appearance: none;
+  }
+
+
 }
 </style>

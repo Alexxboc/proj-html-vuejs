@@ -20,6 +20,15 @@ img {
 }
 
 
+/* Mixin */
+
+@mixin btn_primary {
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+
 /* Utilities */
 
 .fs_15 {
@@ -38,6 +47,10 @@ img {
     font-weight: 600;
 }
 
+.fw_900 {
+    font-weight: 900;
+}
+
 .unstyled {
     list-style: none;
 }
@@ -53,13 +66,17 @@ img {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     padding-left: 1.5rem;
-    padding-right: 0.3rem;
     border-radius: 20px 0 0 20px;
 }
 
 .btn_get {
+    @include btn_primary();
     background-color: $consulting-elm;
-    padding: 0.75rem 1.1rem;
-    border-radius: 4px;
     color: $consulting-white !important;
+}
+
+.btn_outline {
+    @include btn_primary();
+    border: 1px solid $consulting-elm;
+    color: $consulting-elm !important;
 }
