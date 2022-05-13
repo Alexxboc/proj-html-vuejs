@@ -1,12 +1,6 @@
 <template>
   <header>
-    <!-- 
-    - HEADER
-    - SECTION JUMBOTRON>Navbar>form -->
-    <div class="container">
-      <HeaderMenu />
-    </div>
-    <!-- /.container -->
+    <HeaderMenu />
   </header>
 </template>
 
@@ -17,6 +11,18 @@ export default {
   name: "SiteHeader",
   components: {
     HeaderMenu,
+  },
+  data() {
+    return {
+      menuList: [
+        { name: "Home" },
+        { name: "About" },
+        { name: "Services" },
+        { name: "Process" },
+        { name: "Team" },
+        { name: "Blog" },
+      ],
+    };
   },
 };
 </script>

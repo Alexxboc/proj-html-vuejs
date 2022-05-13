@@ -1,6 +1,6 @@
 @import '~/node_modules/bootstrap/scss/bootstrap.scss';
 #app {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: black;
@@ -24,4 +24,12 @@ img {
 
 .fs_15 {
     font-size: 15px;
+}
+
+.unstyled {
+    list-style: none;
+}
+
+.decor_none {
+    text-decoration: none;
 }
