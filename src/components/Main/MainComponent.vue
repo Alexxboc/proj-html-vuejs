@@ -18,7 +18,15 @@
             </p>
           </div>
           <!-- /.col -->
-          <div class="col"></div>
+          <div class="col">
+            <div class="row row-cols-2">
+              <div class="col">
+                
+              </div>
+              <!-- /.col -->
+            </div>
+            <!-- /.row row-cols-2 -->
+          </div>
           <!-- /.col -->
         </div>
         <!-- /.row row-cols-2 -->
