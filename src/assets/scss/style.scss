@@ -28,8 +28,18 @@ img {
     text-transform: uppercase;
 }
 
+@mixin bg_text {
+    border-radius: 4px;
+    padding: 0 0.6rem;
+    margin-right: 0.5rem;
+}
+
 
 /* Utilities */
+
+.fs_14 {
+    font-size: 14px;
+}
 
 .fs_15 {
     font-size: 15px;
@@ -45,6 +55,10 @@ img {
 
 .fw_600 {
     font-weight: 600;
+}
+
+.fw_700 {
+    font-weight: 700;
 }
 
 .fw_900 {
@@ -79,4 +93,9 @@ img {
     @include btn_primary();
     border: 1px solid $consulting-primary;
     color: $consulting-primary !important;
+}
+
+.h2_bg {
+    @include bg_text();
+    background-color: #16272d;
 }
