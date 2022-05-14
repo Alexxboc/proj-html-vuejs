@@ -3,9 +3,9 @@
     <SiteJumbotron />
     <section class="company">
       <div class="container">
-        <div class="row row-cols-2">
-          <div class="col">
-            <h6 class="text-uppercase fs_14 fw_700 mb-4">about the network</h6>
+        <div class="row row-cols-2 justify-content-center gx-5">
+          <div class="col left">
+            <h6 class="text-uppercase fs_14 fw_700">about the network</h6>
             <h2 class="fw_700 mb-4"><span class="h2_bg">The</span>Company</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
@@ -18,10 +18,54 @@
             </p>
           </div>
           <!-- /.col -->
-          <div class="col">
-            <div class="row row-cols-2">
+          <div class="col right">
+            <div class="row row-cols-2 gy-5">
               <div class="col">
-                
+                <div class="item_title d-flex align-items-start fs_14 pb-3">
+                  <font-awesome-icon
+                    class="title_icon me-2"
+                    icon="fa-solid fa-award"
+                  />
+                  <h4 class="fw_700">Tradition</h4>
+                </div>
+                <!-- /.item_title -->
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+              </div>
+              <!-- /.col -->
+              <div class="col">
+                <div class="item_title d-flex align-items-start fs_14 pb-3">
+                  <font-awesome-icon
+                    class="title_icon me-2"
+                    icon="fa-solid fa-lock"
+                  />
+                  <h4 class="fw_700">Security</h4>
+                </div>
+                <!-- /.item_title -->
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+              </div>
+              <!-- /.col -->
+              <div class="col">
+                <div class="item_title d-flex align-items-start fs_14 pb-3">
+                  <font-awesome-icon
+                    class="title_icon me-2"
+                    icon="fa-solid fa-pen-to-square"
+                  />
+                  <h4 class="fw_700">Certificate</h4>
+                </div>
+                <!-- /.item_title -->
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+              </div>
+              <!-- /.col -->
+              <div class="col">
+                <div class="item_title d-flex align-items-start fs_14 pb-3">
+                  <font-awesome-icon
+                    class="title_icon me-2"
+                    icon="fa-solid fa-graduation-cap"
+                  />
+                  <h4 class="fw_700">Expertise</h4>
+                </div>
+                <!-- /.item_title -->
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
               </div>
               <!-- /.col -->
             </div>
@@ -67,8 +111,18 @@ export default {
   padding: 130px;
 }
 
+.col.left {
+  padding-right: 7rem;
+}
+
+.col.right {
+  padding-left: 3rem;
+  padding-top: 1rem;
+}
+
 h6 {
   color: $consulting-elf-green;
+  padding-bottom: 1.7rem;
 }
 
 h2 {
@@ -79,5 +133,15 @@ h2 {
 
 p {
   color: $consulting-white-text;
+}
+
+.item_title {
+  h4 {
+    color: $consulting-white;
+  }
+  .title_icon {
+    color: $consulting-elf-green;
+    font-size: 24px;
+  }
 }
 </style>
