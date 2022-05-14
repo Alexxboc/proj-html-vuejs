@@ -61,8 +61,8 @@ img {
 
 .logo_pill {
     font-weight: 700;
-    color: #12bfc0;
-    background-color: rgb(69 187 188 / 26%);
+    color: $consulting-elf-green;
+    background-color: $consulting-logo-bg;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     padding-left: 1.5rem;
@@ -71,12 +71,12 @@ img {
 
 .btn_get {
     @include btn_primary();
-    background-color: $consulting-elm;
-    color: $consulting-white !important;
+    background-color: $consulting-primary;
+    color: $consulting-footer-titles-white !important;
 }
 
 .btn_outline {
     @include btn_primary();
-    border: 1px solid $consulting-elm;
-    color: $consulting-elm !important;
+    border: 1px solid $consulting-primary;
+    color: $consulting-primary !important;
 }

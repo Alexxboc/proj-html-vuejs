@@ -17,6 +17,6 @@ export default {
 
 <style lang="scss" scoped>
 header {
-  background-color: $consulting-limed-sprouce;
+  background-color: $consulting-dark-blue;
 }
 </style>

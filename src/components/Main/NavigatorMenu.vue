@@ -36,6 +36,6 @@ export default {
 
 <style lang="scss" scoped>
 a {
-  color: $consulting-limed-sprouce;
+  color: $consulting-text-dark;
 }
 </style>

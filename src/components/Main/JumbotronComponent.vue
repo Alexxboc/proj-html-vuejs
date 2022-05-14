@@ -73,12 +73,12 @@ export default {
 .form_wrapper {
   padding: 100px 0;
   h6 {
-    color: $consulting-fountain-blue;
+    color: $consulting-elf-green;
   }
   h1 {
     font-family: "Poppins", sans-serif;
     font-size: 4.5rem;
-    color: $consulting-limed-sprouce;
+    color: $consulting-dark-blue;
   }
 
   input,
@@ -88,11 +88,11 @@ export default {
     background: no-repeat;
     box-shadow: none;
     padding: 1rem;
-    background-color: rgba(0, 0, 0, 0.075);
+    background-color: $consulting-input-bg;
     border: none;
     border-radius: 4px;
     line-height: 1.2;
-    color: #21333e !important;
+    color: $consulting-gray;
     outline: none;
   }
 

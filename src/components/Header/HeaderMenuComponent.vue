@@ -40,7 +40,7 @@ export default {
 <style lang="scss" scoped>
 /* Header Menu */
 .header_menu {
-  color: $consulting-black-haze-white;
+  color: $consulting-white-smoke;
   height: 50px;
 }
 </style>
