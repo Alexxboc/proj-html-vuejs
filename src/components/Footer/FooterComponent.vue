@@ -1,7 +1,7 @@
 <template>
   <footer>
       <section class="footer_menu">
-        
+
       </section>
       <!-- /.footer_menu -->
       <div class="copyrights"></div>
@@ -16,4 +16,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.footer_menu {
+  background-color: $consulting-footer-bg;
+}
 </style>
