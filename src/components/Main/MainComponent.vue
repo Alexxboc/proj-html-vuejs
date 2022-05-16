@@ -3,82 +3,216 @@
     <SiteJumbotron />
     <SectionCompany />
     <SectionServices />
-    <section class="process_menagment">
-      <div class="container large">
-        <div class="row info">
-          <div class="col-12 text-center">
-            <h6 class="over_title text-uppercase fs_14 fw_700">
-              How it works in practice
-            </h6>
-            <!-- /.over-title -->
-            <h2 class="section_title fw_700 my-4">
-              <span class="h2_bg_services">Process</span> Managment
-            </h2>
-            <!-- /.section_title -->
-            <p>
-              We work with innovative methodologies to ensure that the entire
-              reformatting process is done <br />
-              from start to finish as planned.
-            </p>
+    <SectionProcess />
+    <section class="team">
+      <div class="container">
+        <div class="row wrapper">
+          <div class="col-8">
+            <div class="row info">
+              <div class="col-12">
+                <h6 class="over_title text-uppercase fs_14 fw_700">
+                  We like what we do
+                </h6>
+                <!-- /.over-title -->
+                <h2 class="section_title fw_700 my-4">
+                  <span class="h2_bg_company">Team</span> of Experts
+                </h2>
+                <!-- /.section_title -->
+                <p>
+                  Ethics and integrity are the bases on which our professionals
+                  build their careers. <br />
+                  They are fundamentals that become daily attitudes.
+                </p>
+                <div class="row row-cols-2 mt-5 gy-5 gx-0">
+                  <div class="col">
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="@/assets/img/team-1.jpg" alt="team-picture" />
+                      </div>
+                      <!-- /.col-4 -->
+                      <div class="col-8">
+                        <h4 class="fw_700">David Cooper</h4>
+                        <p class="text-uppercase">Ct & co-founder</p>
+                        <ul class="unstyled d-flex p-0">
+                          <li>
+                            <a href="#"
+                              ><font-awesome-icon
+                                icon="fa-brands fa-facebook-f"
+                                class="icon"
+                            /></a>
+                          </li>
+                          <li class="mx-3">
+                            <a href="#"
+                              ><font-awesome-icon
+                                icon="fa-brands fa-twitter"
+                                class="icon"
+                            /></a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              ><font-awesome-icon
+                                icon="fa-brands fa-brands fa-linkedin-in"
+                                class="icon"
+                            /></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <!-- /.col-8 -->
+                    </div>
+                  </div>
+                  <!-- /.col -->
+                  <div class="col">
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="@/assets/img/team-3.jpg" alt="team-picture" />
+                      </div>
+                      <!-- /.col-4 -->
+                      <div class="col-8">
+                        <h4 class="fw_700">Oliver Jones</h4>
+                        <p class="text-uppercase">Chief Procurement</p>
+                        <ul class="unstyled d-flex p-0">
+                          <li>
+                            <a href="#"
+                              ><font-awesome-icon
+                                icon="fa-brands fa-facebook-f"
+                                class="icon"
+                            /></a>
+                          </li>
+                          <li class="mx-3">
+                            <a href="#"
+                              ><font-awesome-icon
+                                icon="fa-brands fa-twitter"
+                                class="icon"
+                            /></a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              ><font-awesome-icon
+                                icon="fa-brands fa-brands fa-linkedin-in"
+                                class="icon"
+                            /></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <!-- /.col-8 -->
+                    </div>
+                  </div>
+                  <!-- /.col -->
+                  <div class="col">
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="@/assets/img/team-2.jpg" alt="team-picture" />
+                      </div>
+                      <!-- /.col-4 -->
+                      <div class="col-8">
+                        <h4 class="fw_700">Emma Lopez</h4>
+                        <p class="text-uppercase">Chief Marketing</p>
+                        <ul class="unstyled d-flex p-0">
+                          <li>
+                            <a href="#"
+                              ><font-awesome-icon
+                                icon="fa-brands fa-facebook-f"
+                                class="icon"
+                            /></a>
+                          </li>
+                          <li class="mx-3">
+                            <a href="#"
+                              ><font-awesome-icon
+                                icon="fa-brands fa-twitter"
+                                class="icon"
+                            /></a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              ><font-awesome-icon
+                                icon="fa-brands fa-brands fa-linkedin-in"
+                                class="icon"
+                            /></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <!-- /.col-8 -->
+                    </div>
+                  </div>
+                  <!-- /.col -->
+                  <div class="col">
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="@/assets/img/team-4.jpg" alt="team-picture" />
+                      </div>
+                      <!-- /.col-4 -->
+                      <div class="col-8">
+                        <h4 class="fw_700">T.Jonson</h4>
+                        <p class="text-uppercase">CEO & President</p>
+                        <ul class="unstyled d-flex p-0">
+                          <li>
+                            <a href="#"
+                              ><font-awesome-icon
+                                icon="fa-brands fa-facebook-f"
+                                class="icon"
+                            /></a>
+                          </li>
+                          <li class="mx-3">
+                            <a href="#"
+                              ><font-awesome-icon
+                                icon="fa-brands fa-twitter"
+                                class="icon"
+                            /></a>
+                          </li>
+                          <li>
+                            <a href="#"
+                              ><font-awesome-icon
+                                icon="fa-brands fa-brands fa-linkedin-in"
+                                class="icon"
+                            /></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <!-- /.col-8 -->
+                    </div>
+                  </div>
+                  <!-- /.col -->
+                </div>
+                <!-- /.row-cols-2 -->
+              </div>
+              <!-- /.col-12 -->
+            </div>
+            <!-- /.row info -->
           </div>
-          <!-- /.col-12 -->
+          <!-- /.col-8 -->
+          <div class="col-4 d-flex align-items-end">
+            <div class="speech">
+              <div class="speech_content">
+                <h4 class="fw_700">President Speech</h4>
+                <p class="mt-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Praesent ut lacinia diam.
+                </p>
+                <p class="mt-4">
+                  Vivamus efficitur et est quis posuere. Nulla sollicitudin
+                  vulputate dui, id pretium tortor congue eu. Integer aliquet
+                  justo eu quam volutpat ullamcorper.
+                </p>
+                <p class="mt-4">
+                  Duis ut hendrerit mauris. Phasellus faucibus ut enim vel
+                  tincidunt. Nunc venenatis a dui et laoreet.
+                </p>
+                <h5 class="fw_700 mt-4">T. Johnson</h5>
+              </div>
+              <!-- /.speech_content -->
+            </div>
+            <!-- /.speech -->
+          </div>
+          <!-- /.col-4 -->
         </div>
-        <!-- /.row info -->
-        <div class="row row-cols-5 justify-content-center mt-5">
-          <div class="col text-center">
-            <div class="process text-center">
-              <span class="fw_700">01</span>
-            </div>
-            <!-- /.process -->
-            <h4 class="fw_700 my-4">Collection of informations</h4>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </div>
-          <!-- /.col -->
-          <div class="col text-center">
-            <div class="process text-center">
-              <span class="fw_700">02</span>
-            </div>
-            <!-- /.process -->
-            <h4 class="fw_700 my-4">Strategic planning</h4>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </div>
-          <!-- /.col -->
-          <div class="col text-center">
-            <div class="process text-center">
-              <span class="fw_700">03</span>
-            </div>
-            <!-- /.process -->
-            <h4 class="fw_700 my-4">Assignment of responsibilities</h4>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </div>
-          <!-- /.col -->
-          <div class="col text-center">
-            <div class="process text-center">
-              <span class="fw_700">04</span>
-            </div>
-            <!-- /.process -->
-            <h4 class="fw_700 my-4">Formatting process</h4>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </div>
-          <!-- /.col -->
-          <div class="col text-center">
-            <div class="process text-center">
-              <span class="fw_700">05</span>
-            </div>
-            <!-- /.process -->
-            <h4 class="fw_700 my-4">Continuity formalization</h4>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </div>
-          <!-- /.col -->
-        </div>
-        <!-- /.row row-cols-5 -->
+        <!-- /.row -->
       </div>
       <!-- /.container -->
     </section>
-    <!-- /.process_menagment -->
+    <!-- /.team -->
 
     <!-- 
-- SECTION PROCESS MENAGMENT
+
 
 - SECTION TEAM
 
@@ -93,6 +227,7 @@
 import SiteJumbotron from "../Main/JumbotronComponent.vue";
 import SectionCompany from "../Main/SectionCompanyComponent.vue";
 import SectionServices from "../Main/SectionServicesComponent.vue";
+import SectionProcess from "../Main/SectionProcessComponent.vue";
 
 export default {
   name: "SiteMain",
@@ -100,17 +235,20 @@ export default {
     SiteJumbotron,
     SectionCompany,
     SectionServices,
+    SectionProcess,
   },
 };
 </script>
 
 <style lang="scss" scoped>
-.container.large {
-  max-width: 100%;
-}
+.team {
+  background-color: $consulting-black-bg;
 
-.process_menagment {
-  padding: 130px 0;
+  .row.wrapper {
+    width: 93%;
+    margin: auto;
+  }
+
   h6 {
     color: $consulting-elf-green;
   }
@@ -118,53 +256,61 @@ export default {
   h2 {
     font-size: 48px;
     font-family: "Poppins", sans-serif;
-    color: $consulting-dark-blue;
-    margin-right: 0;
+    color: $consulting-white;
   }
 
   p {
-    color: #606d75;
+    color: $consulting-white-text;
+  }
+
+  img {
+    border-radius: 10px;
   }
 }
 
-.process {
-  height: 45px;
-  width: 45px;
-  background-color: $consulting-btn-bg-light;
-  color: $consulting-primary;
-  border-radius: 50%;
-  width: 45px;
-  height: 45px;
-  margin: auto;
-  font-size: 1.2rem;
-  font-weight: 700;
-  line-height: 45px;
-  position: relative;
-  z-index: 1;
+.col-8 {
+  h4 {
+    color: $consulting-white;
+  }
+
+  p {
+    color: $consulting-white-text;
+    font-size: 1rem;
+  }
+
+  li {
+    background-color: $consulting-h2-bg;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    .icon {
+      color: $consulting-primary;
+    }
+  }
 }
 
-h4 {
-  color: $consulting-dark-blue;
-}
-
-.row.row-cols-5 {
-  padding: 0 10rem;
-  position: relative;
-  &::before {
-        content: '';
-    position: absolute;
-    z-index: 0;
-    top: 21px;
-    left: 0;
+.col-4 {
+  .speech {
+    color: $consulting-white !important;
+    background-color: $consulting-primary;
     width: 100%;
-    height: 5px;
-    background-color: $consulting-btn-bg-light;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+    border-radius: 4px;
+    p {
+      color: $consulting-white !important;
+      font-weight: 400;
+    }
+  }
+  h5 {
+    font-size: 1rem;
   }
 }
-
-.col {
-  padding-right: 10px;
-  padding-left: 10px;
-}
-
 </style>

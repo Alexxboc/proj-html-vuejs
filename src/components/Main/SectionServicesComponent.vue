@@ -123,7 +123,6 @@ export default {
 <style lang="scss" scoped>
 /* Section Title */
 .services {
-  padding: 130px 0;
   background-color: $consulting-services-bg;
 }
 
@@ -161,7 +160,7 @@ p {
 
   .arrow {
     font-size: 25px;
-    color: $consulting-btn-bg-light;
+    color: #82C1C1;
   }
 }
 </style>

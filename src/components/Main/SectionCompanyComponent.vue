@@ -87,7 +87,6 @@ export default {
 <style lang="scss" scoped>
 .company {
   background-color: $consulting-black-bg;
-  padding: 130px;
 }
 
 .col.left {
