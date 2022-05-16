@@ -8,7 +8,7 @@
           </h6>
           <!-- /.over-title -->
           <h2 class="section_title fw_700 my-4">
-            <span class="h2_bg_services">Process</span> Managment
+            <span class="h2_bg_light">Process</span> Managment
           </h2>
           <!-- /.section_title -->
           <p>
@@ -106,7 +106,7 @@ export default {
 .process {
   height: 45px;
   width: 45px;
-  background-color: $consulting-btn-bg-light;
+  background-color: #deecec;
   color: $consulting-primary;
   border-radius: 50%;
   width: 45px;
@@ -134,7 +134,7 @@ h4 {
     left: 0;
     width: 100%;
     height: 5px;
-    background-color: $consulting-btn-bg-light;
+    background-color: #deecec;
   }
 }
 

@@ -112,3 +112,9 @@ section {
     background-color: $consulting-btn-bg-light;
     color: $consulting-primary;
 }
+
+.h2_bg_light {
+    @include bg_text();
+    background-color: #deecec;
+    color: $consulting-primary;
+}
