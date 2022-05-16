@@ -30,6 +30,57 @@
           <!-- /.col-2 -->
         </div>
         <!-- /.row info -->
+        <div class="row row-cols-3 cards mt-5 gx-4">
+          <div class="col">
+            <div class="card_news">
+              <div class="card_img">
+                <img src="@/assets/img/news-1.jpg" alt="foto" />
+              </div>
+              <!-- /.card_img -->
+              <div class="card_info ">
+                <h4 class="text-center fw_800">
+                  Increasing creativity is possible for everyone
+                </h4>
+              </div>
+              <!-- /.card_info -->
+            </div>
+            <!-- /.card_news -->
+          </div>
+          <!-- /.col -->
+          <div class="col">
+            <div class="card_news">
+              <div class="card_img">
+                <img src="@/assets/img/news-2.jpg" alt="foto" />
+              </div>
+              <!-- /.card_img -->
+              <div class="card_info">
+                <h4 class="text-center fw_800">
+                  Because market research is part of the business plan
+                </h4>
+              </div>
+              <!-- /.card_info -->
+            </div>
+            <!-- /.card_news -->
+          </div>
+          <!-- /.col -->
+          <div class="col">
+            <div class="card_news">
+              <div class="card_img">
+                <img src="@/assets/img/news-3.jpg" alt="foto" />
+              </div>
+              <!-- /.card_img -->
+              <div class="card_info">
+                <h4 class="text-center fw_800">
+                  Working from home is now a trand
+                </h4>
+              </div>
+              <!-- /.card_info -->
+            </div>
+            <!-- /.card_news -->
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row row-cols-3 cards -->
       </div>
       <!-- /.container -->
     </section>
@@ -67,7 +118,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 // .col-4 {
 //   margin-bottom: 1rem;
 // }
@@ -84,5 +134,22 @@ h2 {
 
 p {
   color: #637179;
+}
+
+.card_news {
+  position: relative;
+  img {
+    border-radius: 10px;
+    filter: brightness(0.6);
+  }
+  .card_info {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 50px 46px;
+    h4 {
+      color: $consulting-white;
+    }
+  }
 }
 </style>
