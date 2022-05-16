@@ -95,7 +95,13 @@ img {
     color: $consulting-primary !important;
 }
 
-.h2_bg {
+.h2_bg_company {
     @include bg_text();
     background-color: #16272d;
+}
+
+.h2_bg_services {
+    @include bg_text();
+    background-color: $consulting-btn-bg-light;
+    color: $consulting-primary;
 }
