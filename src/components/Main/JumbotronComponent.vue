@@ -1,11 +1,11 @@
 <template>
-  <section class="jumbotron">
+  <div class="jumbotron">
     <div class="container">
       <JumboNavigator />
       <JumboFormArea />
     </div>
     <!-- /.container -->
-  </section>
+  </div>
   <!-- /.jumbotron -->
 </template>
 
