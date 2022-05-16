@@ -1,9 +1,11 @@
 <template>
   <footer>
-      <!-- 
-          CONTACTS
-          MENU
-       -->
+      <section class="footer_menu">
+        
+      </section>
+      <!-- /.footer_menu -->
+      <div class="copyrights"></div>
+      <!-- /.copyrights -->
   </footer>
 </template>
 
