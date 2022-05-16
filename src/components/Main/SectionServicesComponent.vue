@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row info">
         <div class="col-8 d-flex flex-column justify-content-end">
-          <h6 class="over-title text-uppercase fs_14 fw_700">
+          <h6 class="over_title text-uppercase fs_14 fw_700">
             Our business area
           </h6>
           <!-- /.over-title -->

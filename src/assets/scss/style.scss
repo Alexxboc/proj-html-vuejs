@@ -30,8 +30,7 @@ img {
 
 @mixin bg_text {
     border-radius: 4px;
-    padding: 0 0.6rem;
-    margin-right: 0.5rem;
+    padding: 0 1rem;
 }
 
 
@@ -98,8 +97,10 @@ img {
 }
 
 .h2_bg_company {
-    @include bg_text();
+    border-radius: 4px;
+    padding: 0 0.6rem;
     background-color: #16272d;
+    margin-right: 0.5rem;
 }
 
 .h2_bg_services {
