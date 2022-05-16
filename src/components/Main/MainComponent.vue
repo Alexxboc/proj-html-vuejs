@@ -6,7 +6,7 @@
     <SectionProcess />
     <SectionTeam />
     <SectionNews />
-    <section class="subscribe">
+    <section class="subscribe d-flex align-items-center">
       <div class="container smaller">
         <div class="row row-cols-2 gx-5">
           <div class="col">
