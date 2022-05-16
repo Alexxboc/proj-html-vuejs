@@ -87,12 +87,14 @@ img {
     @include btn_primary();
     background-color: $consulting-primary;
     color: $consulting-footer-titles-white !important;
+    font-weight: 500;
 }
 
 .btn_outline {
     @include btn_primary();
     border: 1px solid $consulting-primary;
     color: $consulting-primary !important;
+    font-weight: 500;
 }
 
 .h2_bg_company {
