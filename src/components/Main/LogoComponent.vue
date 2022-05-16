@@ -1,7 +1,7 @@
 <template>
-  <div class="logo fs_20 fw_600 text-uppercase">
-    <span class="logo_pill">nex</span>
-    <span class="ms-1">gen</span>
+  <div class="logo">
+    <span class="logo_pill logo_header">nex</span>
+    <span class="ms-1 logo_right">gen</span>
   </div>
   <!-- /.logo -->
 </template>
@@ -11,11 +11,3 @@ export default {
   name: "MainLogo",
 };
 </script>
-
-<style lang="scss" scoped>
-.logo {
-  span {
-    letter-spacing: 5px;
-  }
-}
-</style>

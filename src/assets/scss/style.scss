@@ -82,12 +82,30 @@ section {
 
 .logo_pill {
     font-weight: 700;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-left: 1.9rem;
+    border-radius: 25px 0 0 25px;
+    letter-spacing: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.logo_right {
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.logo_header {
     color: $consulting-elf-green;
     background-color: $consulting-logo-bg;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 1.5rem;
-    border-radius: 20px 0 0 20px;
+}
+
+.logo_footer {
+    color: $consulting-elf-green;
+    background-color: $consulting-bg-logo-foot;
 }
 
 .btn_get {
