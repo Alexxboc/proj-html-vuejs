@@ -5,93 +5,48 @@
     <SectionServices />
     <SectionProcess />
     <SectionTeam />
-    <section class="news">
-      <div class="container">
-        <div class="row info">
-          <div class="col-8 d-flex flex-column justify-content-end">
-            <h6 class="over_title text-uppercase fs_14 fw_700">
-              Our editorial content
-            </h6>
+    <SectionNews />
+    <section class="subscribe">
+      <div class="container smaller">
+        <div class="row row-cols-2 gx-5">
+          <div class="col">
+            <h6 class="over_title text-uppercase fs_14 fw_700">Newsletter</h6>
             <!-- /.over-title -->
             <h2 class="section_title fw_700 my-4">
-              Latest <span class="h2_bg_light">News</span>
+              <span class="h2_bg_company">Know</span>First
             </h2>
             <!-- /.section_title -->
-            <p class="mb-0">
-              Every week we publish content about what is best in the business
-              world.
+            <p>
+              Follow closely and receive content about our company and the news
+              of the current market.
             </p>
           </div>
-          <!-- /.col-10 -->
-          <div class="col-4 d-flex align-items-end justify-content-end">
-            <a href="#" class="btn_get decor_none"> See all </a>
-            <!-- /.btn_get decor-none -->
-          </div>
-          <!-- /.col-2 -->
-        </div>
-        <!-- /.row info -->
-        <div class="row row-cols-3 cards mt-5 gx-4">
-          <div class="col">
-            <div class="card_news">
-              <div class="card_img">
-                <img src="@/assets/img/news-1.jpg" alt="foto" />
-              </div>
-              <!-- /.card_img -->
-              <div class="card_info ">
-                <h4 class="text-center fw_800">
-                  Increasing creativity is possible for everyone
-                </h4>
-              </div>
-              <!-- /.card_info -->
-            </div>
-            <!-- /.card_news -->
-          </div>
           <!-- /.col -->
           <div class="col">
-            <div class="card_news">
-              <div class="card_img">
-                <img src="@/assets/img/news-2.jpg" alt="foto" />
+            <form action="submit">
+              <div class="row">
+                <div class="col-12 mb-3">
+                  <input type="text" placeholder="Name"/>
+                </div>
+                <div class="col-12 mb-3">
+                  <input type="email" placeholder="Email"/>
+                </div>
+                <div class="col-12 mt-2">
+                  <a href="#" class="btn_get decor_none">Subscribe</a>
+                </div>
               </div>
-              <!-- /.card_img -->
-              <div class="card_info">
-                <h4 class="text-center fw_800">
-                  Because market research is part of the business plan
-                </h4>
-              </div>
-              <!-- /.card_info -->
-            </div>
-            <!-- /.card_news -->
-          </div>
-          <!-- /.col -->
-          <div class="col">
-            <div class="card_news">
-              <div class="card_img">
-                <img src="@/assets/img/news-3.jpg" alt="foto" />
-              </div>
-              <!-- /.card_img -->
-              <div class="card_info">
-                <h4 class="text-center fw_800">
-                  Working from home is now a trand
-                </h4>
-              </div>
-              <!-- /.card_info -->
-            </div>
-            <!-- /.card_news -->
+            </form>
           </div>
           <!-- /.col -->
         </div>
-        <!-- /.row row-cols-3 cards -->
+        <!-- /.row row-cols-2 -->
       </div>
-      <!-- /.container -->
+      <!-- /.container small -->
     </section>
-    <!-- /.news -->
+    <!-- /.subscribe -->
 
     <!-- 
 
-
-
-
-- SECTION LATEST NEWS
 
 - SECTION NEWSLETTER
        -->
@@ -104,6 +59,7 @@ import SectionCompany from "../Main/SectionCompanyComponent.vue";
 import SectionServices from "../Main/SectionServicesComponent.vue";
 import SectionProcess from "../Main/SectionProcessComponent.vue";
 import SectionTeam from "../Main/SectionTeamComponent.vue";
+import SectionNews from "../Main/SectionNewsComponent.vue";
 
 export default {
   name: "SiteMain",
@@ -113,43 +69,44 @@ export default {
     SectionServices,
     SectionProcess,
     SectionTeam,
+    SectionNews,
   },
 };
 </script>
 
 <style lang="scss" scoped>
-// .col-4 {
-//   margin-bottom: 1rem;
-// }
-
-h6 {
-  color: $consulting-elf-green;
-}
-
-h2 {
-  font-size: 48px;
-  font-family: "Poppins", sans-serif;
-  color: $consulting-dark-blue;
-}
-
-p {
-  color: #637179;
-}
-
-.card_news {
-  position: relative;
-  img {
-    border-radius: 10px;
-    filter: brightness(0.6);
+.subscribe {
+  height: 500px;
+  background-image: url(@/assets/img/bg-1.jpg);
+  background-size: cover;
+  background-position: center;
+  .container.smaller {
+    max-width: 970px;
   }
-  .card_info {
-    position: absolute;
+  h6 {
+    color: $consulting-elf-green;
+  }
+
+  h2 {
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    color: $consulting-white;
+  }
+
+  p {
+    color: $consulting-white-text;
+  }
+
+  input {
     width: 100%;
-    bottom: 0;
-    padding: 50px 46px;
-    h4 {
-      color: $consulting-white;
-    }
+    height: 50px;
+    background: no-repeat;
+    box-shadow: none;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 4px;
+    line-height: 1.2;
   }
 }
 </style>
