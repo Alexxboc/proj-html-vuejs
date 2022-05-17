@@ -3,8 +3,8 @@
     <div class="container">
       <div class="row row-cols-2 justify-content-center gx-5">
         <div class="col left">
-          <h6 class="text-uppercase fs_14 fw_700">about the network</h6>
-          <h2 class="fw_700 mb-4"><span class="h2_bg_company">The</span>Company</h2>
+          <h6 class="over_title">about the network</h6>
+          <h2 class="h2_section mb-4"><span class="h2_bg_company">The</span>Company</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
             iaculis diam varius diam ultricies lacinia. Mauris lacus tellus,
@@ -98,14 +98,11 @@ export default {
   padding-top: 1rem;
 }
 
-h6 {
-  color: $consulting-elf-green;
+h6.over_title {
   padding-bottom: 1.7rem;
 }
 
 h2 {
-  font-size: 48px;
-  font-family: "Poppins", sans-serif;
   color: $consulting-white;
 }
 

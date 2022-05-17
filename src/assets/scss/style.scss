@@ -122,6 +122,19 @@ section {
     font-weight: 500;
 }
 
+.over_title {
+    font-size: 14px;
+    font-weight: 700;
+    color: $consulting-elf-green;
+    text-transform: uppercase;
+}
+
+.h2_section {
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
 .h2_bg_company {
     border-radius: 4px;
     padding: 0 0.6rem;

@@ -3,11 +3,11 @@
     <div class="container">
       <div class="row info">
         <div class="col-8 d-flex flex-column justify-content-end">
-          <h6 class="over_title text-uppercase fs_14 fw_700">
+          <h6 class="over_title">
             Our business area
           </h6>
           <!-- /.over-title -->
-          <h2 class="section_title fw_700 my-4">
+          <h2 class="h2_section mb-4 mt-3">
             Excellence in <span class="h2_bg_services">Services</span>
           </h2>
           <!-- /.section_title -->
@@ -130,13 +130,11 @@ export default {
   margin-bottom: 1rem;
 }
 
-h6 {
+h6.over_title {
   color: $consulting-elf-green;
 }
 
-h2 {
-  font-size: 48px;
-  font-family: "Poppins", sans-serif;
+h2.h2_section {
   color: $consulting-dark-blue;
 }
 

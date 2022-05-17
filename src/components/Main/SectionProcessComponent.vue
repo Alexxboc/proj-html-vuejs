@@ -3,11 +3,11 @@
     <div class="container large">
       <div class="row info">
         <div class="col-12 text-center">
-          <h6 class="over_title text-uppercase fs_14 fw_700">
+          <h6 class="over_title">
             How it works in practice
           </h6>
           <!-- /.over-title -->
-          <h2 class="section_title fw_700 my-4">
+          <h2 class="h2_section my-4">
             <span class="h2_bg_light">Process</span> Managment
           </h2>
           <!-- /.section_title -->
@@ -87,13 +87,11 @@ export default {
 
 .process_menagment {
   padding: 130px 0;
-  h6 {
+  h6.over_title {
     color: $consulting-elf-green;
   }
 
-  h2 {
-    font-size: 48px;
-    font-family: "Poppins", sans-serif;
+  h2.h2_section {
     color: $consulting-dark-blue;
     margin-right: 0;
   }

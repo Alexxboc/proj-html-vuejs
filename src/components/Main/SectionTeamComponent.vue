@@ -5,11 +5,9 @@
         <div class="col-8">
           <div class="row info">
             <div class="col-12">
-              <h6 class="over_title text-uppercase fs_14 fw_700">
-                We like what we do
-              </h6>
+              <h6 class="over_title">We like what we do</h6>
               <!-- /.over-title -->
-              <h2 class="section_title fw_700 my-4">
+              <h2 class="h2_section my-4">
                 <span class="h2_bg_company">Team</span> of Experts
               </h2>
               <!-- /.section_title -->
@@ -193,6 +191,7 @@
                 tincidunt. Nunc venenatis a dui et laoreet.
               </p>
               <h5 class="fw_700 mt-4">T. Johnson</h5>
+              <font-awesome-icon icon="fa-solid fa-quote-right" class="quote" />
             </div>
             <!-- /.speech_content -->
           </div>
@@ -222,11 +221,11 @@ export default {
     margin: auto;
   }
 
-  h6 {
+  h6.over_title {
     color: $consulting-elf-green;
   }
 
-  h2 {
+  h2.h2_section {
     font-size: 48px;
     font-family: "Poppins", sans-serif;
     color: $consulting-white;
@@ -277,13 +276,23 @@ export default {
     justify-content: center;
     padding: 35px;
     border-radius: 4px;
-    p {
-      color: $consulting-white !important;
-      font-weight: 400;
+    .speech_content {
+      position: relative;
+      p {
+        color: $consulting-white !important;
+        font-weight: 400;
+      }
+      h5 {
+        font-size: 1rem;
+      }
+      .quote {
+        position: absolute;
+        bottom: 1px;
+        right: 5px;
+        font-size: 2rem;
+        color: rgba(0, 0, 0, 0.25);
+      }
     }
-  }
-  h5 {
-    font-size: 1rem;
   }
 }
 </style>

@@ -3,9 +3,9 @@
     <div class="container smaller">
       <div class="row row-cols-2 gx-5">
         <div class="col">
-          <h6 class="over_title text-uppercase fs_14 fw_700">Newsletter</h6>
+          <h6 class="over_title">Newsletter</h6>
           <!-- /.over-title -->
-          <h2 class="section_title fw_700 my-4">
+          <h2 class="h2_section my-4">
             <span class="h2_bg_company">Know</span>First
           </h2>
           <!-- /.section_title -->
@@ -54,13 +54,11 @@ export default {
   .container.smaller {
     max-width: 970px;
   }
-  h6 {
+  h6.over_title {
     color: $consulting-elf-green;
   }
 
-  h2 {
-    font-size: 48px;
-    font-family: "Poppins", sans-serif;
+  h2.h2_section {
     color: $consulting-white;
   }
 

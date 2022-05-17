@@ -4,7 +4,7 @@
       <li v-for="(link, index) in menuList" :key="index" class="ms-5">
         <a
           href="#"
-          class="decor_none text-uppercase fw_500"
+          class="decor_none text-uppercase"
           :class="index === 6 ? 'btn_get' : ''"
         >
           {{ link.name }}
@@ -37,5 +37,6 @@ export default {
 <style lang="scss" scoped>
 a {
   color: $consulting-text-dark;
+  font-weight: 500;
 }
 </style>

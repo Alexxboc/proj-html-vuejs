@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="header_menu d-flex align-items-center justify-content-between fs_15">
+    <div class="header_menu d-flex align-items-center justify-content-between">
       <div class="opening_time">
         <font-awesome-icon icon="fa-solid fa-clock" />
         <span class="ms-2">Open Hours: Mon - Sat - 9:00 - 18:00</span>
@@ -42,5 +42,6 @@ export default {
 .header_menu {
   color: $consulting-white-smoke;
   height: 50px;
+  font-size: 15px;
 }
 </style>

@@ -2,8 +2,8 @@
   <div class="row justify-content-end">
     <div class="col-12">
       <div class="form_wrapper">
-        <h6 class="text-uppercase fw_600">fusions & acquisitions</h6>
-        <h1 class="fw_900">
+        <h6 class="text-uppercase">fusions & acquisitions</h6>
+        <h1>
           Insurance <br />
           Consulting
         </h1>
@@ -52,6 +52,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 .col-12 {
   width: 40%;
 }
@@ -59,10 +60,12 @@ export default {
   padding: 100px 0;
   h6 {
     color: $consulting-elf-green;
+    font-weight: 600;
   }
   h1 {
     font-family: "Poppins", sans-serif;
     font-size: 4.5rem;
+    font-weight: 900;
     color: $consulting-dark-blue;
   }
 
