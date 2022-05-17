@@ -29,4 +29,13 @@ export default {
   background-size: cover;
   background-position: center;
 }
+
+@media screen and (min-width: 1850px){
+  .jumbotron {
+  min-height: calc(95vh - 50px);
+  background-image: url(@/assets/img/bg-6.jpg);
+  background-size: cover;
+  background-position: center;
+}
+}
 </style>
