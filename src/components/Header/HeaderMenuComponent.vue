@@ -38,10 +38,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-/* Header Menu */
+
 .header_menu {
   color: $consulting-white-smoke;
   height: 50px;
   font-size: 15px;
+}
+
+/* Animations & Effects */
+.opening_time, .phone_number, .email, .socials:hover {
+  color: $consulting-primary;
 }
 </style>
