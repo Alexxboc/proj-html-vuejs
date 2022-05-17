@@ -18,12 +18,16 @@
           <!-- /.col -->
           <div class="col"><input type="text" placeholder="Phone" /></div>
           <!-- /.col -->
-          <div class="col">
+          <div class="col select">
             <select name="more_info" id="1">
               <option value="" selected>
                 <span>More info</span>
               </option>
             </select>
+            <font-awesome-icon
+              icon="fa-solid fa-chevron-down"
+              class="chevron"
+            />
           </div>
           <!-- /.col -->
         </div>
@@ -62,6 +66,17 @@ export default {
     color: $consulting-dark-blue;
   }
 
+  .col.select {
+    position: relative;
+    .chevron {
+      position: absolute;
+      top: 50%;
+      right: 30px;
+      transform: translate(-50%, -50%);
+      color: $consulting-gray;
+    }
+  }
+
   input,
   select {
     width: 100%;
@@ -75,6 +90,7 @@ export default {
     line-height: 1.2;
     color: $consulting-gray;
     outline: none;
+    position: relative;
   }
 
   select {

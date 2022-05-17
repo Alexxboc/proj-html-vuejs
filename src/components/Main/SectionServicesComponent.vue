@@ -28,7 +28,7 @@
       <div class="row row-cols-3 items gy-4 mt-4">
         <div class="col">
           <div class="card_info p-5">
-            <div class="item_icons d-flex justify-content-between">
+            <div class="item_icons">
               <font-awesome-icon icon="fa-solid fa-sitemap" class="icon" />
               <font-awesome-icon icon="fa-solid fa-arrow-right" class="arrow" />
             </div>
@@ -41,7 +41,7 @@
         <!-- /.card_info -->
         <div class="col">
           <div class="card_info p-5">
-            <div class="item_icons d-flex justify-content-between">
+            <div class="item_icons">
               <font-awesome-icon icon="fa-solid fa-briefcase" class="icon" />
               <font-awesome-icon icon="fa-solid fa-arrow-right" class="arrow" />
             </div>
@@ -54,7 +54,7 @@
         <!-- /.card_info -->
         <div class="col">
           <div class="card_info p-5">
-            <div class="item_icons d-flex justify-content-between">
+            <div class="item_icons">
               <font-awesome-icon icon="fa-solid fa-chart-simple" class="icon" />
               <font-awesome-icon icon="fa-solid fa-arrow-right" class="arrow" />
             </div>
@@ -67,7 +67,7 @@
         <!-- /.card_info -->
         <div class="col">
           <div class="card_info p-5">
-            <div class="item_icons d-flex justify-content-between">
+            <div class="item_icons">
               <font-awesome-icon icon="fa-solid fa-plane-up" class="icon" />
               <font-awesome-icon icon="fa-solid fa-arrow-right" class="arrow" />
             </div>
@@ -80,7 +80,7 @@
         <!-- /.card_info -->
         <div class="col">
           <div class="card_info p-5">
-            <div class="item_icons d-flex justify-content-between">
+            <div class="item_icons">
               <font-awesome-icon icon="fa-solid fa-globe" class="icon" />
               <font-awesome-icon icon="fa-solid fa-arrow-right" class="arrow" />
             </div>
@@ -93,7 +93,7 @@
         <!-- /.card_info -->
         <div class="col">
           <div class="card_info p-5">
-            <div class="item_icons d-flex justify-content-between">
+            <div class="item_icons">
               <font-awesome-icon icon="fa-solid fa-folder-open" class="icon" />
               <font-awesome-icon icon="fa-solid fa-arrow-right" class="arrow" />
             </div>
@@ -161,6 +161,14 @@ p {
   .arrow {
     font-size: 25px;
     color: #82C1C1;
+  }
+}
+.item_icons {
+  position: relative;
+  .arrow {
+    position: absolute;
+    top: 0;
+    right: 45px;
   }
 }
 </style>
