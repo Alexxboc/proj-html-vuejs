@@ -27,7 +27,7 @@
       <!-- /.row info -->
       <div class="row row-cols-3 items gy-4 mt-4">
         <div class="col">
-          <div class="card_info p-5">
+          <div class="card_info p-5 translate_y">
             <div class="item_icons">
               <font-awesome-icon icon="fa-solid fa-sitemap" class="icon" />
               <font-awesome-icon icon="fa-solid fa-arrow-right" class="arrow" />
@@ -40,7 +40,7 @@
         </div>
         <!-- /.card_info -->
         <div class="col">
-          <div class="card_info p-5">
+          <div class="card_info p-5 translate_y">
             <div class="item_icons">
               <font-awesome-icon icon="fa-solid fa-briefcase" class="icon" />
               <font-awesome-icon icon="fa-solid fa-arrow-right" class="arrow" />
@@ -53,7 +53,7 @@
         </div>
         <!-- /.card_info -->
         <div class="col">
-          <div class="card_info p-5">
+          <div class="card_info p-5 translate_y">
             <div class="item_icons">
               <font-awesome-icon icon="fa-solid fa-chart-simple" class="icon" />
               <font-awesome-icon icon="fa-solid fa-arrow-right" class="arrow" />
@@ -66,7 +66,7 @@
         </div>
         <!-- /.card_info -->
         <div class="col">
-          <div class="card_info p-5">
+          <div class="card_info p-5 translate_y">
             <div class="item_icons">
               <font-awesome-icon icon="fa-solid fa-plane-up" class="icon" />
               <font-awesome-icon icon="fa-solid fa-arrow-right" class="arrow" />
@@ -79,7 +79,7 @@
         </div>
         <!-- /.card_info -->
         <div class="col">
-          <div class="card_info p-5">
+          <div class="card_info p-5 translate_y">
             <div class="item_icons">
               <font-awesome-icon icon="fa-solid fa-globe" class="icon" />
               <font-awesome-icon icon="fa-solid fa-arrow-right" class="arrow" />
@@ -92,7 +92,7 @@
         </div>
         <!-- /.card_info -->
         <div class="col">
-          <div class="card_info p-5">
+          <div class="card_info p-5 translate_y">
             <div class="item_icons">
               <font-awesome-icon icon="fa-solid fa-folder-open" class="icon" />
               <font-awesome-icon icon="fa-solid fa-arrow-right" class="arrow" />

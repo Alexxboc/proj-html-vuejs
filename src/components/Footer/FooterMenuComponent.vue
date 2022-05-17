@@ -13,17 +13,17 @@
                 A Functional HTML Template for Corporate & Business.
               </p>
               <div class="contacts mt-3">
-                <div class="phone_number mb-2">
+                <div class="phone_number mb-2 hover_elf">
                   <font-awesome-icon icon="fa-solid fa-phone" />
                   <span class="ms-2">+1 (305) 1234-5678</span>
                 </div>
                 <!-- /.phone_number -->
-                <div class="email mb-2">
+                <div class="email mb-2 hover_elf">
                   <font-awesome-icon icon="fa-solid fa-envelope" />
                   <span class="ms-2">hello@example.com</span>
                 </div>
                 <!-- /.email -->
-                <div class="adress mb-5">
+                <div class="adress mb-5 hover_elfc">
                   <font-awesome-icon icon="fa-solid fa-location-dot" />
                   <span class="ms-2">Main Avenue, 987</span>
                 </div>
@@ -41,7 +41,7 @@
         <div class="col-9">
           <div class="row row-cols-3">
             <div class="col" v-for="(menu, index) in menuList" :key="index">
-              <div class="menu_card">
+              <div class="menu_card translate_y">
                 <h4 class="fw_700 mb-3">{{ menu.title }}</h4>
                 <ul class="unstyled ps-0">
                   <li
@@ -49,7 +49,7 @@
                     v-for="(link, index) in menuList[index].links"
                     :key="index"
                   >
-                    <a href="#" class="decor_none">
+                    <a href="#" class="decor_none hover_elf">
                       <font-awesome-icon icon="fa-solid fa-chevron-right" />
                       <span class="ms-2">{{ link }}</span>
                     </a>

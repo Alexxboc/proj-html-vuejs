@@ -4,7 +4,7 @@
       <li v-for="(link, index) in menuList" :key="index" class="ms-5">
         <a
           href="#"
-          class="decor_none text-uppercase"
+          class="decor_none text-uppercase hover_elf"
           :class="index === 6 ? 'btn_get' : ''"
         >
           {{ link.name }}

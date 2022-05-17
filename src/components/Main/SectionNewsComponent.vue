@@ -27,7 +27,7 @@
       <div class="row row-cols-3 cards mt-5 gx-4">
         <div class="col">
           <div class="card_news">
-            <div class="card_img">
+            <div class="card_img blur">
               <img src="@/assets/img/news-1.jpg" alt="foto" />
             </div>
             <!-- /.card_img -->
@@ -43,7 +43,7 @@
         <!-- /.col -->
         <div class="col">
           <div class="card_news">
-            <div class="card_img">
+            <div class="card_img blur">
               <img src="@/assets/img/news-2.jpg" alt="foto" />
             </div>
             <!-- /.card_img -->
@@ -59,7 +59,7 @@
         <!-- /.col -->
         <div class="col">
           <div class="card_news">
-            <div class="card_img">
+            <div class="card_img blur">
               <img src="@/assets/img/news-3.jpg" alt="foto" />
             </div>
             <!-- /.card_img -->

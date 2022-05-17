@@ -27,25 +27,25 @@
                       <h4 class="fw_700">David Cooper</h4>
                       <p class="text-uppercase">Ct & co-founder</p>
                       <ul class="unstyled d-flex p-0">
-                        <li>
+                        <li class="bright">
                           <a href="#"
                             ><font-awesome-icon
                               icon="fa-brands fa-facebook-f"
-                              class="icon"
+                              class="icon bright"
                           /></a>
                         </li>
-                        <li class="mx-3">
+                        <li class="mx-3 bright">
                           <a href="#"
                             ><font-awesome-icon
                               icon="fa-brands fa-twitter"
-                              class="icon"
+                              class="icon bright"
                           /></a>
                         </li>
-                        <li>
+                        <li class="bright">
                           <a href="#"
                             ><font-awesome-icon
                               icon="fa-brands fa-brands fa-linkedin-in"
-                              class="icon"
+                              class="icon bright"
                           /></a>
                         </li>
                       </ul>
@@ -64,25 +64,25 @@
                       <h4 class="fw_700">Oliver Jones</h4>
                       <p class="text-uppercase">Chief Procurement</p>
                       <ul class="unstyled d-flex p-0">
-                        <li>
+                        <li class="bright">
                           <a href="#"
                             ><font-awesome-icon
                               icon="fa-brands fa-facebook-f"
-                              class="icon"
+                              class="icon bright"
                           /></a>
                         </li>
-                        <li class="mx-3">
+                        <li class="mx-3 bright">
                           <a href="#"
                             ><font-awesome-icon
                               icon="fa-brands fa-twitter"
-                              class="icon"
+                              class="icon bright"
                           /></a>
                         </li>
-                        <li>
+                        <li class="bright">
                           <a href="#"
                             ><font-awesome-icon
                               icon="fa-brands fa-brands fa-linkedin-in"
-                              class="icon"
+                              class="icon bright"
                           /></a>
                         </li>
                       </ul>
@@ -101,25 +101,25 @@
                       <h4 class="fw_700">Emma Lopez</h4>
                       <p class="text-uppercase">Chief Marketing</p>
                       <ul class="unstyled d-flex p-0">
-                        <li>
+                        <li class="bright">
                           <a href="#"
                             ><font-awesome-icon
                               icon="fa-brands fa-facebook-f"
-                              class="icon"
+                              class="icon bright"
                           /></a>
                         </li>
-                        <li class="mx-3">
+                        <li class="mx-3 bright">
                           <a href="#"
                             ><font-awesome-icon
                               icon="fa-brands fa-twitter"
-                              class="icon"
+                              class="icon bright"
                           /></a>
                         </li>
-                        <li>
+                        <li class="bright">
                           <a href="#"
                             ><font-awesome-icon
                               icon="fa-brands fa-brands fa-linkedin-in"
-                              class="icon"
+                              class="icon bright"
                           /></a>
                         </li>
                       </ul>
@@ -138,25 +138,25 @@
                       <h4 class="fw_700">T.Jonson</h4>
                       <p class="text-uppercase">CEO & President</p>
                       <ul class="unstyled d-flex p-0">
-                        <li>
+                        <li class="bright">
                           <a href="#"
                             ><font-awesome-icon
                               icon="fa-brands fa-facebook-f"
-                              class="icon"
+                              class="icon bright"
                           /></a>
                         </li>
-                        <li class="mx-3">
+                        <li class="mx-3 bright">
                           <a href="#"
                             ><font-awesome-icon
                               icon="fa-brands fa-twitter"
-                              class="icon"
+                              class="icon bright"
                           /></a>
                         </li>
-                        <li>
-                          <a href="#"
+                        <li class="bright">
+                          <a  class="bright" href="#"
                             ><font-awesome-icon
                               icon="fa-brands fa-brands fa-linkedin-in"
-                              class="icon"
+                              class="icon bright"
                           /></a>
                         </li>
                       </ul>

@@ -51,6 +51,7 @@ export default {
   background-image: url(@/assets/img/bg-1.jpg);
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   .container.smaller {
     max-width: 970px;
   }

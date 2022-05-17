@@ -153,3 +153,67 @@ section {
     background-color: #deecec;
     color: $consulting-primary;
 }
+
+
+/* Animations & Effects utilities */
+
+.hover_elf:hover {
+    color: $consulting-elf-green !important;
+}
+
+.hover_elf {
+    transition: all 200ms;
+    cursor: pointer;
+}
+
+.btn_get:hover {
+    filter: brightness(1.2);
+}
+
+.btn_get,
+.btn_outline {
+    transition: all 500ms;
+}
+
+.btn_outline:hover {
+    background-color: $consulting-primary;
+    color: $consulting-footer-titles-white !important;
+    filter: brightness(1.2);
+}
+
+.translate_y:hover {
+    transform: translateY(-15px);
+    transition: all 700ms;
+}
+
+.translate_y {
+    transition: all 700ms;
+    cursor: pointer;
+}
+
+.invert:hover {
+    color: $consulting-white;
+    background-color: $consulting-primary;
+}
+
+.invert {
+    transition: ease 500ms;
+    cursor: pointer;
+}
+
+.bright:hover {
+    filter: brightness(1.7);
+}
+
+.bright {
+    transition: all 600ms;
+    cursor: pointer;
+}
+
+.blur:hover {
+    filter: brightness(0.3);
+}
+
+.blur {
+    transition: all 2s;
+}

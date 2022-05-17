@@ -22,7 +22,7 @@
       <!-- /.row info -->
       <div class="row row-cols-5 justify-content-center mt-5">
         <div class="col text-center">
-          <div class="process text-center">
+          <div class="process text-center invert">
             <span class="fw_700">01</span>
           </div>
           <!-- /.process -->
@@ -31,7 +31,7 @@
         </div>
         <!-- /.col -->
         <div class="col text-center">
-          <div class="process text-center">
+          <div class="process text-center invert">
             <span class="fw_700">02</span>
           </div>
           <!-- /.process -->
@@ -40,7 +40,7 @@
         </div>
         <!-- /.col -->
         <div class="col text-center">
-          <div class="process text-center">
+          <div class="process text-center invert">
             <span class="fw_700">03</span>
           </div>
           <!-- /.process -->
@@ -49,7 +49,7 @@
         </div>
         <!-- /.col -->
         <div class="col text-center">
-          <div class="process text-center">
+          <div class="process text-center invert">
             <span class="fw_700">04</span>
           </div>
           <!-- /.process -->
@@ -58,7 +58,7 @@
         </div>
         <!-- /.col -->
         <div class="col text-center">
-          <div class="process text-center">
+          <div class="process text-center invert">
             <span class="fw_700">05</span>
           </div>
           <!-- /.process -->
