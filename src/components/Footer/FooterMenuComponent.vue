@@ -23,7 +23,7 @@
                   <span class="ms-2">hello@example.com</span>
                 </div>
                 <!-- /.email -->
-                <div class="adress mb-5 hover_elfc">
+                <div class="adress mb-5 hover_elf">
                   <font-awesome-icon icon="fa-solid fa-location-dot" />
                   <span class="ms-2">Main Avenue, 987</span>
                 </div>
@@ -72,6 +72,8 @@
 </template>
 
 <script>
+
+
 export default {
   name: "FooterMenu",
   data() {

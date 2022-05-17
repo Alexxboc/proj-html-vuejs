@@ -1,7 +1,7 @@
 <template>
   <div class="navigator d-flex justify-content-between py-4">
     <MainLogo />
-    <NavigatorMenu />
+    <NavigatorMenu :menuList="menuList"/>
   </div>
   <!-- /.navigator -->
 </template>
@@ -15,6 +15,19 @@ export default {
   components: {
     MainLogo,
     NavigatorMenu,
+  },
+  data() {
+    return {
+      menuList: [
+        { name: "Home" },
+        { name: "About" },
+        { name: "Services" },
+        { name: "Process" },
+        { name: "Team" },
+        { name: "Blog" },
+        { name: "Get in touch" },
+      ],
+    };
   },
 };
 </script>

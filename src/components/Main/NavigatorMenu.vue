@@ -18,19 +18,10 @@
 <script>
 export default {
   name: "NavigatorMenu",
-  data() {
-    return {
-      menuList: [
-        { name: "Home" },
-        { name: "About" },
-        { name: "Services" },
-        { name: "Process" },
-        { name: "Team" },
-        { name: "Blog" },
-        { name: "Get in touch" },
-      ],
-    };
-  },
+  props: {
+    menuList: Object,
+  }
+  
 };
 </script>
 
