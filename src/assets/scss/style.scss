@@ -157,7 +157,7 @@ section {
 
 /* Animations & Effects utilities */
 
-.hover_elf:hover {
+.hover_elf:not(.btn_get):hover {
     color: $consulting-elf-green !important;
 }
 

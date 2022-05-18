@@ -19,7 +19,7 @@
 export default {
   name: "NavigatorMenu",
   props: {
-    menuList: Object,
+    menuList: Array,
   }
   
 };

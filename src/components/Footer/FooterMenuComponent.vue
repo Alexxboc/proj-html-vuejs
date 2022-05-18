@@ -72,10 +72,13 @@
 </template>
 
 <script>
-
+// import LinksMenu from "../Footer/LinksMenu.vue";
 
 export default {
   name: "FooterMenu",
+  components: {
+    // LinksMenu,
+  },
   data() {
     return {
       menuList: [
